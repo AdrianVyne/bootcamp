@@ -1,0 +1,28 @@
+table,
+      th,
+      td {
+        border: 1px solid gray;
+      }
+
+      .top-heading {
+        background-color: rgb(255, 200, 99);
+      }
+
+      .sub-heading {
+        background-color: rgb(255, 229, 182);
+      }
+
+      #sub-heading {
+        background-color: rgb(250, 238, 216);
+      }
+      .food-icon {
+        height: 30px;
+      }
+
+      .food-row:hover {
+        background-color: orange;
+      }
+        
+        #hcolor:hover {
+            color: coral;
+        }

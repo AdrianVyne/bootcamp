@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Untitled Document</title>
+  </head>
+  <style>
+	  ul {
+        list-style-position: inside;
+        font-family: "Comic Sans MS";
+      }
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 3;
+    border: 2px solid yellow;
+}  
+
+.flex-child:nth-child(n) {
+    margin-right: 20px;
+} 
+.flex-child:first-child {
+		  margin-right: 20px;}
+  </style>
+  <body>
+	  
+	  <div class="flex-container">
+
+  <div class="flex-child">
+    <img
+          src="http://www.freewill-baptistchurch.com/assets/images/cross.jpg"
+          width="150"
+          alt="a yellow cross"
+		 align="right"
+        />
+  </div>
+  
+  <div class="flex-child">
+    <ul>
+          Other Ministries:
+          <li>Mission Christmas Box</li>
+          <li>Red River Valley Housing Project</li>
+          <li>Louisiana Baptist Youth Brigade</li>
+          <li>Breaking Bread: community Communion</li>
+          <li>Down In The River! - River River Baptisms</li>
+        </ul>
+  </div>
+		  
+		  
+		  <div class="flex-child">
+        <img
+          src="http://www.freewill-baptistchurch.com/assets/images/cross.jpg"
+          width="150"
+          alt="a yellow cross"
+			 align="left"
+        />
+  </div>
+  
+</div>
+
+  </body>
+</html>

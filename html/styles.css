@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+ body {
+      text-align: center;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    table {
+      text-align: center;
+      width: 100%;
+      background-color: #4682b4;
+    }
+
+    td {
+      font-family: "Comic Sans MS";
+      color: white;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: "Comic Sans MS";
+      color: #4682b4;
+    }
+
+    h2 {
+      font-family: "Comic Sans MS";
+      color: #4682b4;
+    }
+
+    p {
+      font-family: "Comic Sans MS";
+    }
+
+    ul {
+      list-style-position: inside;
+      font-family: "Comic Sans MS";
+    }
+
+    #left {text-align: left;}
+
+    footer {
+      font-size: 12px;
+      margin-top: 250px;
+      color: #a0a0a0;
+      font-family: "Comic Sans MS";
+    }
+
+    .h2link {
+      font-family: "Comic Sans MS";
+      color: #ff00d8;
+    }
+
+    .navLink {
+      color: #a0a0a0;
+    }
+
+    .cross {
+      float: left;
+      width: 30%;
+      text-align: center;
+      display: flex;
+    }
+
+    .end {
+      font-size: 10px;
+    }
+
+    .tb {
+      background: #ffffff;
+    }
+
+    .singleflex {
+      display: flex;
+    }
+
+    .others {
+      float: left;
+      width: 40%;
+      text-align: center;
+    }
+
+    .flex-container {
+      display: flex;
+    }
+
+    .flex-child {
+      flex: 1;
+      margin-right: 20px;
+    }

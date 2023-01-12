@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ISCP Employee Registration Form</title>
+  </head>
+
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <br />
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png"
+      width="300"
+      height="300"
+      alt="School Logo"
+    /><br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <h2>Basic Information</h2>
+
+    <form>
+      First name:<input
+        type="text"
+        name="firstName"
+        placeholder="ex. John"
+      /><br />
+
+      Last name:<input
+        type="text"
+        name="lastName"
+        placeholder="ex. Doe"
+      /><br />
+
+      Place of birth
+      <input
+        type="text"
+        name="birthPlace"
+        placeholder="ex. Tagaytag City"
+      /><br />
+
+      Birthdate: <input type="date" name="birthdate" /><br />
+
+      Civil Status:
+      <select>
+        <option disabled selected>---Select One---</option>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="widowed">Widowed</option>
+        <option value="separated">Separated</option></select
+      ><br />
+      Gender:
+      <select>
+        <option disabled selected>---Select One---</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="lgtb">Other</option></select
+      ><br />
+
+      Mother's maiden name:<input
+        type="text"
+		name="mothersMaidenName"						  
+        placeholder="ex. Jane Doe"
+      /><br />
+
+      Father's name:<input 
+		type="text"
+		placeholder="ex. John Doe" 
+		name="fathersName"
+		/><br />
+
+      <h2>Contact information</h2>
+
+      Email address:<input
+        type="email"
+		name="email"				   
+        placeholder="ex. john.doe1@company.com"
+      /><br />
+
+      Contact number (mobile):<input
+        type="number"
+		name="phonenumber"							 
+        placeholder="09123456789"
+      /><br />
+
+      Contact number (telephone):
+      <input type="number" name="telnumber" placeholder="321 7654" /><br />
+
+      <h2>Address</h2>
+
+      Street number:
+      <input name="streetnum" type="text" placeholder="ex. Lot 22/ Blk 4 " /><br />
+
+      Street name: <input name="streetname" type="text" placeholder="ex. Leon Street" /><br />
+
+      Barangay: <input name="brgy" type="text" placeholder="ex. Brgy. Molino" /><br />
+
+      City/Town: <input name="city" type="text" placeholder="ex. Bacoor" /><br />
+
+      Province: <input name="province" type="text" placeholder="ex. Cavite" /><br />
+
+      Full address:
+      <input
+        type="text"
+        placeholder="ex. Lot 22 / Blk 4, Leon Street, Camella Lessandra
+Brgy. Molino, Bacoor"
+      /><br />
+
+      <h2>Government information</h2>
+
+      SSS ID: <input type="text" placeholder="ex. 11-9876543-2" /><br />
+
+      Pag-Ibig ID: <input type="text" placeholder="ex. 3214-4561-7894" /><br />
+
+      PhilHealth ID:
+      <input type="text" placeholder="ex. 01-234567891-4" /><br />
+
+      Upload 2x2 picture:
+      <input type="file" accept="image/*" /><br />
+      Upload picture of government ID:
+      <input type="file" accept="image/*" />
+
+      <h2>Account information</h2>
+      Username: <input type="text" placeholder="use a unique username" /><br />
+
+      Password:
+      <input
+        type="password"
+        placeholder="enter at least 6 characters"
+        minlength="6"
+      /><br />
+
+      Confirm password:
+      <input
+        type="password"
+        placeholder="re-enter to confirm password"
+        minlength="6"
+      /><br />
+
+      Upload profile image:
+      <input type="file" accept="image/*" /><br />
+
+      <h2>Have you experienced any of the following in the last 30 days?</h2>
+      <input type="checkbox" value="coughing" />Coughing<br />
+      <input type="checkbox" value="fever" />Fever<br />
+      <input type="checkbox" value="commonCold" />Common cold<br />
+      <input type="checkbox" value="bodyAche" />Body ache<br />
+      <input type="checkbox" value="soreThroat" />Sore throat<br />
+      <input type="checkbox" value="tiredness" />Tiredness<br />
+      <input type="checkbox" value="lossOfsmell" />Loss of smell<br />
+
+      <h2>Give a short description about yourself.</h2>
+      <textarea
+        placeholder="type your entry here"
+        rows="10"
+        cols="30"
+      ></textarea>
+    </form>
+  </body>
+</html>
